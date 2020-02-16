@@ -22,6 +22,7 @@
     
     chmow 777 storage/framework/session
     chmow 777 storage/framework/views
+    chmod -R 777 storage/framework/cache
     chmow 777 storage/logs
     
 ## Run
