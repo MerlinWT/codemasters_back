@@ -14,6 +14,16 @@
     DB_HOST=mysql
     DB_PASSWORD=root
     
+  Install dependencies:
+  
+    composer install
+    
+  Set permissions
+    
+    chmow 777 storage/framework/session
+    chmow 777 storage/framework/views
+    chmow 777 storage/logs
+    
 ## Run
 
   Run in console follow command:
