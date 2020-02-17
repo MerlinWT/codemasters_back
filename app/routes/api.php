@@ -14,3 +14,5 @@
 // to test:
 //      curl --header "Content-Type: application/json" --request POST --data '{"login": "admin", "password": "root"}' http://kovalenko.test:8081/api/auth
 Route::post('/auth', 'SessionController@generateToken');
+
+Route::apiResource('/users', 'UserController');
