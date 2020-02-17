@@ -30,17 +30,6 @@
   Open in browser:
     
     http://kovalenko.test:8081/
-    
-## API
 
-Api end-points
-
-### Auth 
-
-    curl --header "Content-Type: application/json" --request POST --data '{"login": "admin", "password": "root"}' http://kovalenko.test:8081/api/auth    
-
-Response example
-
-    {"token":"82d4586e810040b9317939b14b32ef9b"}
     
     
