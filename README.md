@@ -1,7 +1,3 @@
-# Test task for handh.
-
-  - Implementation of api method for generate auth token
-
 ## Prepare application
   Add into `hosts`:
   
