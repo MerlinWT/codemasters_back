@@ -16,10 +16,10 @@
     
   Set permissions
     
-    chmow 777 storage/framework/session
-    chmow 777 storage/framework/views
-    chmod -R 777 storage/framework/cache
-    chmow 777 storage/logs
+    sudo chmod 777 storage/framework/session
+    sudo chmod 777 storage/framework/views
+    sudo chmod -R 777 storage/framework/cache
+    sudo chmod 777 storage/logs
     
 ## Run
 
