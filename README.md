@@ -16,7 +16,7 @@
     
   Set permissions
     
-    sudo chmod 777 storage/framework/session
+    sudo chmod 777 storage/framework/sessions
     sudo chmod 777 storage/framework/views
     sudo chmod -R 777 storage/framework/cache
     sudo chmod 777 storage/logs
