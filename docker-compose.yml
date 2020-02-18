@@ -23,5 +23,5 @@ services:
       MYSQL_DATABASE: laravel
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - /docker/mysql/database:/var/lib/mysql
+      - ./docker/mysql/database:/var/lib/mysql
 
